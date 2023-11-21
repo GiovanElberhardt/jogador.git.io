@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastrar Usuario</title>
+    <link rel="stylesheet" type="text/css"  href="/estilo.css" />
+    
+</head>
+<body>
+    <div id="main-container">
+    
+        <h1>Cadastrar Usuario</h1>
+    
+        <form action="/adicionar" method="post" enctype="multipart/form-data">
+
+            <div class="half-box spacing">
+            <label for= "usuario">Usuario: </label>
+            <input type="text" id="usuario" name="usuario" required><br>
+            </div>
+
+            <div class="half-box spacing">
+            <label for= "senha">Senha: </label>
+            <input type="text" id="senha" name="senha" required><br>
+            </div>
+
+            <div class="full-box">
+            <label for= "nick">Nick: </label>
+            <input type="text" id="nick" name="nick" required><br>
+            </div>
+
+            <div class="full-box">
+            <label for= "bio">Bio: </label>
+            <input type="text" id="bio" name="bio" required><br>
+            </div>
+
+            <div class="half-box spacing">
+            <label for= "cidade">Cidade: </label>
+            <input type="text" id="cidade" name="cidade" required><br>
+            </div>
+
+            <div class="half-box spacing">
+            <label for= "estado">Estado: </label>
+            <input type="text" id="estado" name="estado" required><br>
+            </div>
+
+            <div class="half-box spacing">
+            <label for= "pais">Pais: </label>
+            <input type="text" id="pais" name="pais" required><br>
+            </div>
+
+            <div class="half-box spacing">
+            <label for= "imagem">Imagem de Perfil: </label>
+            <input type="file" id="imagem" name="imagem" accept="image/*"><br>
+            </div>
+
+            <input type="submit" value="Salvar">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+th{
+    background-color: #df1212;
+}
+input, label{
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+    outline: none;
+}
+
+h1{
+    margin-top: 30px;
+    
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h3{
+   
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 26px;
+    
+}
+
+ h4{
+    color: #fffefe;
+    text-align: center;
+    margin-top: 25px;
+}
+
+h5 {
+    color: #5a5959; 
+    font-size: 24px;
+    text-align: center; 
+    margin: 20px 0;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    margin-top: 25px;
+    background-color: #f1f1f1;
+}
+
+
+p{
+    text-align: center;
+    margin-top: 25px;
+}
+
+a{
+    color: #3f99d4;
+}
+
+body{
+    padding-top: 5vh; /*view heigth -> 5% da tela*/
+    background-size: cover;
+    background-position-y: -150px;
+}
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main-container h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem; 
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+
+}
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus{
+    border-color: #070f53;
+}
+
+input[type="submit"]{
+    background-color: #13a8ce;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url('/uploads/programaçao.webp'); /* Substitua 'sua-imagem.jpg' pelo nome da sua imagem */
+    background-size: cover;
+    background-position-y: -150px;
+}
